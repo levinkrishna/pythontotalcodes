@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
+}
+.container{
+    width: 80%;
+    background-color: beige;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    /* height: 800px; */
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.card{
+    width: 40%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    padding: 12px;
+    gap: 20px;
+
+}
+.card-image{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    flex: 1;
+    text-align: center;
+
+    
+}
+.card-content{
+
+    flex: 3;
+}
+.card-header{
+    color: #917d46;
+    font-weight: bolder;
+    font-size:large;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.card-body{
+    font-family: 'Merriweather', serif;
+    line-height: 20px;
+}
+.card-footer{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 10%;
+    border: 1px solid white;
+}
+.btn-grey{
+    background-color: grey;
+    color: white;
+}
+.btn-warning{
+    background-color: rgb(152, 152, 25);
+    color: white;
+
+}

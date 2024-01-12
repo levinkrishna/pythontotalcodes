@@ -1,0 +1,5 @@
+git clone                =>            exact copy from remote repo to local system
+git pull                 =>            changes in remote repo to local system
+git add-A                =>            Adding all changes to staging area
+git commit-M "message"   =>            adding staging file to local repository  
+git push                 =>            changes in local to remote repo        

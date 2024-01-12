@@ -1,0 +1,24 @@
+.body_tag{
+    background-color: aquamarine;
+    width: 100%;
+}
+.div1{
+    background-color: chocolate;
+    width: 90%;
+    height: 150px;
+}
+.div2{
+    background-color:purple ;
+    width: 50%;
+    height: 150px;
+}
+.div3{
+    background-color: brown;
+    width: 100%;
+    height: 150px;
+}
+.div4{
+    background-color: bisque;
+    width: 100%;
+    height: 150px;
+}

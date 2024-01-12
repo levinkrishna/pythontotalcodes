@@ -1,0 +1,10 @@
+tummy_size=34
+buttock_size=42
+#gender=male
+value=tummy_size/buttock_size
+if(value<=0.80):
+ print("low")
+elif(value<=0.85):
+ print("moderate")
+elif(value>0.85):
+ print("high")

@@ -1,0 +1,30 @@
+.row{
+    width: 80%;
+    height: 800px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-column-gap: 5px;
+    grid-row-gap: 5px; */
+   grid-gap: 20px;
+   text-align: center;
+}
+
+
+.item{
+  
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+}
+.item:nth-child(2){
+    background-color: yellow;
+    color: brown;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

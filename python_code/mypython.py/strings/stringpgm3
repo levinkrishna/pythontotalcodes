@@ -1,0 +1,11 @@
+text="hello i am here in kakkanad"
+#print longest word
+words=text.split(" ")
+
+#print(max(words,key=lambda w:len(w)))
+
+wc={}
+for w in words:
+    if w not in wc:
+     wc[w]=len(w) 
+print(wc)

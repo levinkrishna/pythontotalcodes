@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:wght@400;500&display=swap');
+:root{
+    --red:#000814;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #000814;
+    color: white;
+    font-family:'Roboto',sans-serif;
+    font-family: 'rowdies';
+}
+
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color:red;
+}
+/* .btn-cstm{
+    background-color: red;
+} */
+/* .text-danger{
+    color: red;
+} */
+.h-5{
+    min-height: 450px;
+}
+/* img{
+    width:40%;
+    filter: drop-shadow(10px 10px 70px white);
+    
+} */
+
+.profile{
+    width:40%;
+    filter: drop-shadow(10px 10px 70px white);
+    
+}
+.card img{
+    height: 300px;
+    /* width: 80%; */
+}
+.card1 img{
+    width: 60%;
+}
+.title {
+    color: rgb(223, 30, 30);
+    text-align: center;
+}
+
+.icon i{
+    margin-left: 10px;
+    color: red;
+}

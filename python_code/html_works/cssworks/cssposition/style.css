@@ -1,0 +1,39 @@
+.row{
+    width: 50%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 250px;
+    margin-left: 100px;
+    position: relative;
+}
+.col{
+    width: 70px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.col:nth-child(1){
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+}
+.col:nth-child(2){
+    /* margin-left: 200px; */
+    background-color: violet;
+    /* position: relative; */
+    /* left: 50%; */
+    /* top: 20px; */
+    position: absolute;
+    top:0;
+    right:0;
+}
+.fixed{
+    position: fixed;
+    top:200px;
+    right: 0;
+}
+.sticky{
+    position: sticky;
+    top: 150px;
+    border: 1px solid black;
+}
